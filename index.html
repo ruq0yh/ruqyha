@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+</body>
+</html>
+
+</head>
+<body>
+    <style>
+        
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+
+}
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.8em;
+
+    
+}
+.logo{
+    text-decoration: none;
+    color: rgb(131, 131, 253);
+    text-transform: uppercase;
+    font-weight: 700;
+    font: size 1.8em; 
+
+}
+.navigation a{
+    color: rgb(131, 131, 253);
+
+    text-decoration:none ;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left : 30px;
+    
+
+}
+.navigation a:hover{
+    color: #601cfc;
+
+    
+}
+section{
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    background: url(https://images.pexels.com/photos/3820393/pexels-photo-3820393.jpeg?cs=srgb&dl=pexels-rfstudio-3820393.jpg&fm=jpg )  no-repeat; width: 100; height: 200px;
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+
+}
+
+.main h2{
+    color: rgb(0, 0, 0);
+    
+    font-size: 1.4em;
+    font-weight: 700;
+
+}
+.main h2 span{
+    display: inline-block;
+    color: black;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.main h3{
+    color: black;
+
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn{
+    color: #fff;
+    background-color: #601cfc;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transform: 0.7s ease;
+
+
+
+}
+.main-btn :hover{
+    background-color: #601cf6;
+    transform: scale(1.1);
+
+
+
+
+}
+.socia-icons a{
+    color:#000016;
+font-size: 1.7em;
+padding-right: 30px;    
+
+}
+.title{
+    display:flex;
+    justify-content: center;
+    color: #601cfc;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+.card{
+    background-color:#fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/100%);
+    border-radius: 10px;
+    padding: 25px;
+    margin:15px ;
+
+}
+.card :hover{
+    transform: scale(1.1);
+    
+
+}
+.icon{
+    color:#3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color:#3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects{
+    background-color: #0d0d0e;
+}
+.projects.content{
+    margin-top:30px;
+
+
+}
+.projects-card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+width: 23em;
+overflow: hidden;
+border-radius: 10px;
+margin: 20px;
+transition: 0.7s ease;
+
+}
+.projects-card:hover{
+    transform: scale(1.1);
+
+
+
+}
+.projects-card:hover.projects-imge{
+    opacity: 0.9;
+
+}
+
+.projects-imge img{
+    width: 100%;
+
+}
+.projects-info{
+    padding: 1em;
+    color:#fff;*
+
+}
+.projects-category{
+    font-size: 0.8em;
+    color: #fff;
+
+
+}
+.projects-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more-details{
+    text-decoration: none;
+    color: #3a6cf4;
+
+}
+.more-details:hover{
+    color: #601cfc;
+
+
+}
+.content.icon{
+    font-size: 4.5em;
+
+}
+.content.info h3{
+    color:#fff;
+}
+.content .info p{
+    font-size: 1.5em;
+}
+.footer{
+    background-color: #000016;
+    color:#fff ;
+    padding:2em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+    
+
+}
+.footer-title span{
+    color:#3a6cf4 ;
+
+}
+
+@media (max-width:1023px){
+
+    header{
+        padding: 12px 20px;
+        
+        }
+    }
+.navigation a{
+    padding-left: 10px;
+
+}
+.title{
+    font-size: 1.8em;
+}
+.section{
+    padding: 80px 20x;
+
+
+}
+.main-content h3{
+    font-size: 1.6em;
+
+}
+.content{
+    flex-direction: column;
+    align-items: center;
+
+}
+@media(max-width :64px)
+
+{
+    body{
+        font-size: 12px;
+        
+    }
+
+
+}
+.main-content h3{
+    font-size: 1.4em;
+
+}
+@media(max-width:300px){
+    body{
+        font-size: 10px;
+        
+    }
+
+}
+
+
+
+
+
+  </style>
+    
+    <header> 
+        <a href="#" class="logo"> roqyha</a>
+
+        <nav class="navigation">
+<a href="#server"> services</a>
+<a href="projects"> projects</a>
+<a href="# contact">  contact</a>
+
+
+
+
+        </nav>
+        
+
+        
+    </header>
+    <section class="main">
+
+    <div>
+        <h2> HELLO, I'M ROQYHA <br><span>content creator</span></h2>
+
+        
+
+        
+
+        
+        <h3> yoga instructor</h3>
+        <a href="#projects" class="main-btn"> view my work</a>
+        <div class="socia-icons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+           
+
+
+            
+
+            
+
+        </div>
+    </div>
+
+
+</section class="cards" id="services">
+<h2 class="title"> services</h2>
+<div class="content">
+    <div class="card">
+        <div class="icon">
+            <i class="	glyphicon glyphicon-facetime-video"></i>
+
+            
+        </div>
+    <div class="info">
+    
+            <h3>video production</h3>
+            <p>Record and shoot videos taking into consideration proper settings, followed by production & post- production work </p>
+        </div>
+
+    </div>
+    
+
+
+
+
+    <div class="card">
+        <div class="icon">
+            <i class="glyphicon glyphicon-education"></i>
+        </div>
+        <div class="info">
+            <h3>Curriculum Development</h3>
+            <p> Develop complete curriculums for various technical topics to produce digital transformative courses
+
+Projects</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<section>
+
+    </section>
+
+    <section class="projects" id="projects" >
+        <h2 class="title">projects</h2>
+        <div  class="content">
+        <div class="projects card">
+            <div class="projects-imge">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIg2EHoRQSegac_w3OKyVvLQtgmKAuPUn0sA&usqp=CAU"/>
+            
+        </div>
+        <div class="projects-info">
+            <p  class="projects-category">production &curriculum development </p>
+            <strong class="projects-title">
+                <span> dev books</span>
+                <a href="#" class="more-details">more <details></details></a>
+            </strong>
+        </div>
+    
+        </div>
+
+       <div class="projects card">
+            <div class="projects-imge">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5olzbPNBpADvXVXDzA_Si76NYBBFW2jKU2w&usqp=CAU"/>
+        </div>
+        <div class="projects-info">
+            <p  class="projects-category">production &curriculum development </p>
+            <strong class="projects-title">
+                <span> dev books</span>
+                <a href="#" class="more-details">more <details></details></a>
+            </strong>
+        </div>
+        </div>
+        <div class="projects card">
+            <div class="projects-imge">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS5NFq6i4uLG-oewntIZ_6ceg1gA6HYpQP-A&usqp=CAU"/>
+            
+        </div>
+        <div class="projects-info">
+            <p  class="projects-category">production &curriculum development </p>
+            <strong class="projects-title">
+                <span> dev books</span>
+                <a href="#" class="more-details">more <details></details></a>
+            </strong>
+        </div>
+        </div>
+        <div class="projects card">
+            <div class="projects-imge">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgFAh0oa6JeJNS7pcsX7-WQCl5qXDskCLZOg&usqp=CAU"/>
+            
+        </div>
+        <div class="projects-info">
+            <p  class="projects-category">production &curriculum development </p>
+            <strong class="projects-title">
+                <span> dev books</span>
+                <a href="#" class="more-details">more <details></details></a>
+            </strong>
+        </div>
+        </div>
+        <div class="projects card">
+            <div class="projects-imge">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTojJnNzUlnkOsFIoL0m0nrJO1rx8FKGvFYeA&usqp=CAU"/>
+            
+        </div>
+        <div class="projects-info">
+            <p  class="projects-category">production &curriculum development </p>
+            <strong class="projects-title">
+                <span> dev books</span>
+                <a href="#" class="more-details">more <details></details></a>
+            </strong>
+        </div>
+        </div>
+        <div class="projects card">
+            <div class="projects-imge">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVGRYnyUjoVWM2kavoOisDGgpCcpEThWjRfQ&usqp=CAU"/>
+            
+        </div>
+        <div class="projects-info">
+            <p  class="projects-category">production &curriculum development </p>
+            <strong class="projects-title">
+                <span> dev books</span>
+                <a href="#" class="more-details">more <details></details></a>
+            </strong>
+        </div>
+        </div>
+        </div>
+      
+        
+        
+    </section>
+
+    </section>
+    <section class="cards contact " id="contact">
+        <h2 class="title"> let,s work together</h2>
+        <div class="content">
+    <div class="card">
+        <div class="icon">
+            <i class="glyphicon glyphicon-earphone"></i>
+
+            
+        </div>
+    <div class="info">
+    
+            <h3>phone</h3>
+            <p>+5895433900 </p>
+        </div>
+
+    </div><div class="content">
+    <div class="card">
+        <div class="icon">
+            <i class="glyphicon glyphicon-envelope"></i>
+
+
+            
+        </div>
+    <div class="info">
+    
+            <h3>Email</h3>
+            <p>business@ruqyha.com </p>
+        </div>
+
+    </div>
+    </div>
+
+    </section>
+    <footer class="footer">
+        <p class="footer-title"  >copyrights @ <span>  ruqyha hider  </span></p>
+        <div class="social-icon">
+             <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+           
+        </div>  
+
+
+        
+        
+    </footer>
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
